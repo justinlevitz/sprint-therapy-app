@@ -120,14 +120,14 @@ const Dashboard: React.FC<DashboardProps> = ({ client, notes, onAddNote, onDelet
 
   return (
     <div className="p-6 space-y-8 animate-fadeIn">
-      {/* Spring Focus Banner */}
-      <section className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-3xl p-6 text-white shadow-lg">
+      {/* Spring Focus Banner - Updated to dark blue */}
+      <section className="bg-indigo-950 rounded-3xl p-6 text-white shadow-lg">
         <div className="flex items-center gap-3 mb-2 opacity-80">
-          <i className="fas fa-seedling"></i>
-          <span className="text-xs font-bold uppercase tracking-widest">Active Focus</span>
+          <i className="fas fa-seedling text-indigo-400"></i>
+          <span className="text-xs font-bold uppercase tracking-widest text-indigo-200">Active Focus</span>
         </div>
         <h2 className="text-2xl font-bold mb-3">{client.currentSpring}</h2>
-        <p className="text-indigo-100 text-sm leading-relaxed">{client.summary}</p>
+        <p className="text-indigo-200 text-sm leading-relaxed">{client.summary}</p>
       </section>
 
       {/* Current Sprint Timeline Section */}
