@@ -1,0 +1,7 @@
+{
+  "name": "Sprint Therapy Companion",
+  "description": "A mobile-first therapy companion app for clients to track goals, notes, and engage in daily mindfulness 'springs'.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
